@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="buscador">
+            <h1>Petlopedia</h1>
+            <input type="text" name="buscar" placeholder="Buscar mascotas" id="size">
+            <button type="button" name="sesionIni" id="iniciar" value="Iniciar Sesión" onclick="cambiar(this)">Iniciar Sesión</button>
+        </div>
+    </header>
+    <main>
+        <div id="centro">
+        <div id="gatoTigre">
+            <div class="separar">
+                <h2>Gato Atigrado</h2>
+                <p><em>sustantivo</em></p>
+                <div>
+                    <p>Plural: Gatos Atigrados</p>
+                    <p>Un gato con un pelaje con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente.</p>
+                </div>
+                <button type="submit" name="likes" class="megusta" onclick="incrementarLikes2('gatoTigre'), like(this)">22 me gusta</button>
+            </div>
+        </div>
+        <div id="edicion">
+            <p>Petlopedia está definida por Ti</p>
+            <button type="button" name="agregarDef" id="botonAgregar" onclick="desaparece(this)">Agregar Definición</button>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div id="goldenRetriever">
+            <div class="separar">
+                <h2>Golden Retriever</h2>
+                <p><em>sustantivo</em></p>
+                <div>
+                    <p>Plural: Golden Retrievers</p>
+                    <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos.</p>
+                </div>
+                <button type="submit" name="likes" class="megusta" onclick="incrementarLikes('goldenRetriever'), like(this)">45 me gusta</button>
+            </div>
+            
+        </div>
+    </footer> 
+    <script src="script.js"></script>  
+</body>
+</html>
