@@ -13,7 +13,10 @@ function desaparece(asd) {
 }
 
 function like(gustar) {
-    alert("Te ha gustado esta definición")
+    alert("Te ha gustado Gatos Atigrados")
+}
+function like2(gustar) {
+    alert("Te ha gustado Golden Retriever")
 }
 
 function incrementarLikes() {
